@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+    padding: 1% 5% 1% 5%;
+    color: black;
+}
+
+h2{
+    font-family: 'Courier New', Courier, monospace;
+    color: chocolate;
+}
+
+h2.cHeading1{
+    color:darkcyan;
+    font-family: Lobster, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+img.catimage{
+    width: 100px;
+    border: 5px solid slateblue;
+    border-radius: 50%;
+}
+
+form > *{
+    display: block;
+    margin-top: 5px;
+}
+
+#foot{
+    text-align: center;
+    color: rgb(13, 132, 179);
+}
+
+[type='text']{
+    width: 200px;
+    height: 30px;
+}
+
+::placeholder{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+}
+
+button{
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: teal;
+    color: aliceblue;
+}
