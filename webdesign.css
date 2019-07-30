@@ -1,15 +1,31 @@
 @import url('https://fonts.googleapis.com/css?family=Lobster');
 
+
+:root {
+    --change: rgb(38, 44, 41);
+  }
+
+  @media screen and (max-width: 350px) {
+    body {
+    /* add code below */
+    --change: rgb(126, 133, 223);
+    background-color: antiquewhite;
+    /* add code above */
+    }
+}
+
+
 body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 16px;
     padding: 1% 5% 1% 5%;
     color: black;
+    position: absolute;
 }
 
 h2{
     font-family: 'Courier New', Courier, monospace;
-    color: chocolate;
+    color: black;
 }
 
 h2.cHeading1{
@@ -17,10 +33,20 @@ h2.cHeading1{
     font-family: Lobster, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+a:hover{
+    color: brown;
+}
+
+#opacit{
+    opacity: 0.2;
+    text-transform: uppercase;
+}
+
 img.catimage{
     width: 100px;
     border: 5px solid slateblue;
     border-radius: 50%;
+    box-shadow:0px 0px 10px 0px rgb(82, 82, 82);
 }
 
 form > *{
@@ -46,7 +72,41 @@ form > *{
 button{
     width: 80px;
     height: 30px;
-    border-radius: 10px;
-    background-color: teal;
+    border-radius: 5px;
+    background-color: rgb(38, 187, 187);
+    color: var(--change, black);
+}
+
+.cust{
+    color: var(--change,black);
+    background-color: rgb(175, 233, 197);
+    border-radius: 2px;
+    padding: 5px 5px 5px 5px;
+}
+
+.box {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: chocolate;
+    position: fixed;
+    right: 5%;
+    bottom: 10%;
+}
+
+.box p{
+    text-align: center;
     color: aliceblue;
 }
+
+.box:hover{
+    cursor: pointer;
+}
+
+div.hs{ 
+    border-radius: 20px;
+    width: 70%;
+    height: 400px;
+    margin: 50px auto;
+    background: linear-gradient(30deg, hsl(14, 70%, 10%), hsl(240, 80%, 90%));
+  }
