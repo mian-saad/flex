@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link type="text/css" rel="stylesheet" href="survey.css"/>
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <h1 class="heading">Survey Page</h1>
+        <div class="form-wraper">
+            <p class="stext">Let us know how we can improve freeCodeCamp</p>
+            <div class="inner-form">
+                <form class="survey-form">
+
+                    <div class="rw">
+                        <div class="labls">
+                            <label class="name-label">Name: </label>
+                        </div>
+                        <div class="ins">
+                                <input class="naam naap" type="text" placeholder="Saad Aziz" required>
+                        </div>
+                    </div>
+                    <div class="rw">
+                        <div class="labls">
+                            <label email-label>Email: </label>
+                        </div>
+                        <div class="ins">
+                            <input class="imail naap" type="email" placeholder="saad.aziz@clark.de" required>
+                        </div>
+                    </div>
+                    <div class="rw">
+                        <div class="labls">
+                            <label class="number-label">Age: </label>
+                        </div>
+                        <div class="ins">
+                            <input class="naap" type="number" max="60" placeholder="35" required>
+                        </div>
+                    </div>
+                    <div class="rw">
+                        <div class="labls labls1">
+                            <label>Which option best describes your current role?</label>
+                        </div>
+                        <div class="ins">
+                            <select class="dropdown">
+                                <option disabled selected value>Select one</option>
+                                <option value="One">One</option>
+                                <option value="Two">Two</option>
+                                <option value="Three">Three</option>
+                                <option value="Four">Four</option>
+                                <option value="Five">Five</option>
+                                <option value="Six">Six</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="rw">
+                        <div class="labls labls1">
+                            <label>How likely is that you would recommend freeCodeCamp to a friend?</label>
+                        </div>
+                        <div class="ins">
+                            <ul class="style">
+                                <li><label><input name="name" value="one" type="radio">First</label></li>
+                                <li><label><input name="name" value="Two" type="radio">Two</label></li>
+                                <li><label><input name="name" value="Three" type="radio">Three</label></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="rw">
+                        <div class="labls labls1">
+                            <label>Things that should be improved in the future (Check all that apply):</label>
+                        </div>
+                        <div class="ins">
+                            <ul class="style">
+                                <li><label><input name="name" value="one" type="checkbox">First</label></li>
+                                <li><label><input name="name" value="Two" type="checkbox">Two</label></li>
+                                <li><label><input name="name" value="Three" type="checkbox">Three</label></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="rw lastrow">
+                        <div class="labls labls1">
+                            <label>Any Comments or Suggestions?</label>
+                        </div>
+                        <div class="ins">
+                            <textarea placeholder="Write here"></textarea>
+                        </div>
+                    </div>       
+                    <button id="submit">Submit</button>
+                    <br><br>
+                </form>
+            </div>
+        </div>
+        
+    </main>
+    
+</body>
+</html>
