@@ -1,3 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Crimson+Pro&display=swap');
+
+body{
+    font-family: 'Crimson Pro';
+    font-size: 1.2em;
+}
+.title{
+    text-align: center;
+}
+
 .img-div{
     display: grid;
     grid-template-columns: auto;
