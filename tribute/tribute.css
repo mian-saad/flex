@@ -1,9 +1,9 @@
-#img-div{
+.img-div{
     display: grid;
     grid-template-columns: auto;
     justify-items: center
 }
-img{
+.image{
     max-width: 100%;
     display: block;
     height: auto;
