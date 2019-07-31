@@ -5,9 +5,11 @@ body{
     font-size: 1.2em;
     background-color: rgb(245, 218, 187);
 }
+
 .heading{
     text-align: center;
 }
+
 .list-style{
     list-style: none;
     padding: 0px;
@@ -20,10 +22,10 @@ body{
     max-width: 800px;
     margin: auto;
     padding: 10px;
-    box-shadow: 0px 0px 8px 2px gray;
+    box-shadow: 0 0 8px 2px gray;
 }
 
-.rw{
+.form-rows{
     padding: 10px;
 }
 
@@ -31,25 +33,25 @@ body{
     padding-bottom: 40px;
 }
 
-.left-labels{
+.form-labels{
     display: inline-block;
     text-align: right;
     width: 40%;
     padding: 5px;
 }
 
-.labls1{
+.last-four-labels{
     vertical-align: top;
 }
 
-.ins{
+.form-input{
     display: inline-block;
     text-align: left;
     width: 48%;
     padding: 5px;
 }
 
-textarea{
+.form-textarea{
     height: 40px;
     resize: vertical;
 }
@@ -63,7 +65,7 @@ textarea{
     font-size: 1.1em;
 }
 
-.naap{
+.first-three-inputs{
     width: 180px;
     height: 25px;
 }
