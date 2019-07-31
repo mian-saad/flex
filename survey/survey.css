@@ -8,7 +8,7 @@ body{
 .heading{
     text-align: center;
 }
-.style{
+.list-style{
     list-style: none;
     padding: 0px;
     margin-top: 0px;
@@ -31,7 +31,7 @@ body{
     padding-bottom: 40px;
 }
 
-.labls{
+.left-labels{
     display: inline-block;
     text-align: right;
     width: 40%;
@@ -54,7 +54,7 @@ textarea{
     resize: vertical;
 }
 
-button{
+.submit-button{
     width: 90px;
     height: 45px;
     background-color: aliceblue;
