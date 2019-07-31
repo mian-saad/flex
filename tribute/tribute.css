@@ -3,15 +3,36 @@
 body{
     font-family: 'Crimson Pro';
     font-size: 1.2em;
+    background-color: rgb(192, 190, 190);
 }
-.title{
+
+.tribute-text{
     text-align: center;
 }
 
-.img-div{
+.tribute-mainlayout{
+    background-color: rgb(238, 238, 238);
+    max-width: 1100px;
+    margin: auto;
+    display: block;
+    box-shadow: 0 0 8px 2px gray;
+    animation: backlit 2s infinite;
+}
+
+.tribute-title{
+    text-align: center;
+}
+
+.tribute-figure{
     display: grid;
     grid-template-columns: auto;
-    justify-items: center
+    justify-items: center;
+    padding: 30px 20px 10px 20px;
+}
+
+.tribute-info{
+    padding: 10px 80px 50px 80px;
+    text-align: center;
 }
 .image{
     max-width: 100%;
@@ -19,3 +40,21 @@ body{
     height: auto;
     width: auto;
 }
+@keyframes backlit {
+    0% {
+      -webkit-box-shadow: 0 0 0 0 rgba(139, 139, 139, 0.8);
+      border-radius: 10px;
+    }
+    30% {
+        -webkit-box-shadow: 0 0 0 10px rgba(139, 139, 139, 0.3);
+        border-radius: 7px;
+    }
+    50% {
+        -webkit-box-shadow: 0 0 0 10px rgba(139, 139, 139, 0.1);
+        border-radius: 3px;
+    }
+    100% {
+        -webkit-box-shadow: 0 0 0 0 rgba(139, 139, 139, 0);
+        border-radius: 0px;
+    }
+  }
