@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Crimson+Pro&display=swap');
 
 body{
-    font-family: 'Crimson Pro', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Crimson Pro', sans-serif;
     font-size: 1.2em;
     background-color: rgb(192, 190, 190);
 }
