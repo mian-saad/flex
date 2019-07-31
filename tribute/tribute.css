@@ -1,0 +1,11 @@
+#img-div{
+    display: grid;
+    grid-template-columns: auto;
+    justify-items: center
+}
+img{
+    max-width: 100%;
+    display: block;
+    height: auto;
+    width: auto;
+}
