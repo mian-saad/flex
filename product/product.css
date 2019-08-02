@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css?family=Crimson+Pro&display=swap');
+
+@media (max-width: 300px) {
+    body{
+        display: none;
+    }
+}
+body{
+    font-family: 'Crimson Pro', sans-serif;
+    font-size: 1.3em;
+    background-color: rgb(174, 204, 202);
+}
+
+.list-style{
+    list-style: none;
+}
+
+.header{
+    width: 100%;
+    display: flex;
+    top: 0;
+    left: 0;
+    justify-content: space-around;
+    box-shadow: 0 0 8px 2px grey;
+    background-color: white;
+    position: fixed;
+}
+nav > ul{
+    width: 40vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+nav > ul > li > a{
+    text-decoration: none;
+    color:  hsl(180, 22%, 50%);
+}
+
+.form{
+    margin-top: 50px;
+    padding: 20px 0 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.email{
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #000;
+}
+
+.submit{
+    width: 120px;
+    height: 35px;
+    margin-top: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    box-shadow: 0 0 2px 2px hsl(176, 23%, 50%);
+    background-color:white;
+    color: #2d4747;
+}
+::placeholder{
+    padding: 0 0 0 5px;
+}
+
+.video-wraper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.featuresgrid{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    max-width: 800px;
+    margin: auto;
+}
+
+.features-details{
+    width: 500px;
+    max-width: 800px;
+}
+
+.features-icon{
+    width: 200px;
+    max-width: 200px;
+}
+.footer-links-ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin: 0;
+}
+
+.footer-links-li{
+    padding: 10px 50px 5px 0;
+}
+.footer-links-li > a{
+    text-decoration: none;
+    color: hsl(180, 22%, 50%);
+}
+
+.footer-copyright{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 5px 50px 10px 0;
+}
+.product-footer{
+    background-color: white;
+    margin-top: 50px;
+}
